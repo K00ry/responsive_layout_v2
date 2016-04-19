@@ -1,0 +1,111 @@
+/* Global Layout Set-up */
+* { 
+  box-sizing: border-box;
+}
+
+
+header,
+.flex ,
+footer {
+
+padding-left: 1em;
+padding-right: 1em;
+text-align: center;
+
+}
+  
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Poiret One', cursive;
+  color: #222;
+  background: #FFFFFF;
+}
+/* Link Styles */
+
+a {
+  text-decoration: none;
+  color: #999;
+}
+a:hover {
+  color: #6633ff;
+}
+
+/* Section Styles */
+
+
+.main-nav {
+  font-weight: 700;
+  padding: 0;
+}
+
+.main-nav li {
+margin-top: 10px;
+  background: #BFBFBF;
+
+}
+
+.profile{
+  display: inline-block;
+    text-align: center;
+    max-width: 70%;
+
+    background-color: #F1F0F8;
+}
+
+.profile-image {
+  max-width: 50%;
+  max-height: 60%;
+  border-radius: 100%;
+  margin: 10px;
+
+}
+
+.skills ,
+.port-img {
+  display: inline-block;
+  list-style-type: none;
+  max-width: 90%;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+
+
+
+
+/* Media queries */
+
+@media(min-width: 678px ){
+
+
+
+
+}
+
+@media(min-width: 1024px){
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
