@@ -7,6 +7,7 @@
 	<link rel="stylesheet" type="text/css" href="CSS/koory-normalize.css">
 	<link rel="stylesheet" href="CSS/styles.css">
 	<link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+	<script src="js/picturefill.min.js" async></script>
 
 </head>
 
@@ -20,8 +21,9 @@
 	    <h1 class="name" id="top">Kourosh Mirzaei</h1>
 	
 		 <ul class="main-nav">
-			<li> HOME</li>	
+			<li><a href="#">HOME</a></li>	
 			<li><a href="#portfolio">PORTFOLIO</a></li>
+			<li><a href="#skills">SKILLS</a></li>
 			<li><a href="#contact">CONTACT</a></li>	
 
 		 </ul>
@@ -29,11 +31,12 @@
 		
 <div class="intro">
 	<div class="profile">
-		<img src="images/koory.jpg" alt="Picture of Kourosh Mirzai" class="profile-image">
+		<img src="images/koory-profile.jpg" alt="Picture of Kourosh Mirzai" srcset="images/koory-profile.jpg 2x,
+		images/koory-profile-lower.jpg 1x" class="profile-image">
 	</div>
 
-		<p class="p">I'm a front-end developer who loves responsive design and css.
-		I got my degree in front-end web development at Treehouse and am excited to deliver all the expections using my skills.</p>
+		<h3 class="p">I'm a front-end developer who loves responsive design and css.
+		I got my degree in front-end web development at Treehouse and am excited to deliver all the expections using my skills.</h3>
 </div>
 
 		
@@ -43,11 +46,11 @@
 
 
 	
-	<main class="flex">
+	<main class="main-content">
 	
-	<h3 id="portfolio">PORTFOLIO</h3>
+	<h1 id="portfolio">PORTFOLIO</h1>
 		
-	<ul class="skills" >
+	<ul class="portfolio" >
 		<li>
 			<img src="images/portfolio-1.png" class="port-img">
 			<h2>Marketing Page</h2>
@@ -64,9 +67,9 @@
 			<p>this project searches through a specific database to find information that the user is trying to look up.</p>
 		</li>
 		<li>
-			<img src="images/portfolio-4.png" class="port-img">
-			<h2>Photo Gallery</h2>
-			<p>This project shows pictures from a recent trip to viewer and allows them to easily navigate through photos.</p>
+			<img src="images/portfolio-6.png" class="port-img">
+			<h2>Map of Favorite Spots</h2>
+			<p>This project uses mapping apis to plot points for my faviorite spots in the city for a do-it-yourself walking tour.</p>
 		</li>
 		<li>
 			<img src="images/portfolio-5.png" class="port-img">
@@ -75,9 +78,35 @@
 		</li>
 		<li>
 			<img src="images/portfolio-6.png" class="port-img">
-			<h2>Photo Gallery</h2>
-			<p>This project shows pictures from a recent trip to viewer and allows them to easily navigate through photos.</p>
+			<h2>Calculator</h2>
+			<p>Someone can enter in the numbers they want, and press the big blue button and get the result.</p>
 		</li>
+
+	</ul>
+
+	    <h1 id="skills">Skills</h1>
+		<ul class="skills" >
+		<li>
+			<img src="images/portfolio-7.png" class="port-img">
+			<h2>Video Player</h2>
+			
+		</li>
+		<li>
+			<img src="images/portfolio-8.png" class="port-img">
+			<h2>video Blog</h2>
+			
+		</li>
+		<li>
+			<img src="images/portfolio-9.png" class="port-img">
+			<h2>Forms</h2>
+			
+		</li>
+		<li>
+			<img src="images/portfolio-10.png" class="port-img">
+			<h2>Responsive Design</h2>
+			
+		</li>
+		
 
 	</ul>
 
@@ -85,7 +114,7 @@
 </main>
 
 
-	<div id="contact" class="address">	
+	<div id="contact" class="contact">	
 		<h2>CONTACT</h2>
 		<p>Please dont hesitate to contact me , I would be happy to provide more information about my work.</p>
 		<h4>Phone  : <a href="tel:+1 917-414-6858">(917)414-6858</a></h4>
